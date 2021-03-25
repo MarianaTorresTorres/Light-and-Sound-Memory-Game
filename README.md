@@ -75,7 +75,7 @@ Here's a walkthrough of implemented user stories:
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
 
-Like I said previously, I am having a bug where the final progress display (8/8) does not show up, so I would go back and 
+   Like I said previously, I am having a bug where the final progress display (8/8) does not show up, so I would go back and 
   figure out where the problem is so I can fix it rather than displaying the final progress in the alert. Although I have 
   some experience with HTML, CSS, and JavaScript, this is the first time I have worked with the AudioContext library, so I would 
   spend some time looking through the library's documentation to learn more about how it works and how I could implement 
