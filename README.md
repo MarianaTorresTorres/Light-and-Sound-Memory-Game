@@ -47,9 +47,10 @@ Here's a walkthrough of implemented user stories:
    https://www.w3schools.com/ (for reference)
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
-   A problem that I encountered was when I was trying to implement additional features. 
+   A problem that I encountered was when I was trying to implement additional features.
+   
    I wanted the player to see how many turns they have left to do before winning, so I displayed the progress variable 
-   by changing the inner HTML of a <p> component. That was not very difficult to figure out, but then I realized that when 
+   by changing the inner HTML of a paragraph component. That was not very difficult to figure out, but then I realized that when 
   the player reaches the final turn and they win, the progress paragraph would continue to display the "7/8" rather than "8/8";
   this is also the case when the player loses, but leaving the progress as "7/8" makes sense in this situation. To solve this, 
   I first logged the progress variable in various steps of the JavaScript functions to figure out if the update level function 
@@ -63,6 +64,7 @@ Here's a walkthrough of implemented user stories:
   this bug that I will continue working on in a later time.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
+
    From this submission, I can see that small web applications can be programmed by a single person. I also know from previous
   experience that web applications can be developed by a team, where the responsibilities can be distributed amongs the team
   members. However, I am curious about how this distribution would work for the applications made by very large companies.
@@ -72,6 +74,7 @@ Here's a walkthrough of implemented user stories:
   software developer and an software developer intern?
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
+
 Like I said previously, I am having a bug where the final progress display (8/8) does not show up, so I would go back and 
   figure out where the problem is so I can fix it rather than displaying the final progress in the alert. Although I have 
   some experience with HTML, CSS, and JavaScript, this is the first time I have worked with the AudioContext library, so I would 
