@@ -1,0 +1,104 @@
+:root {
+  --dark: rgb(61, 62, 61);
+  --red: rgb(242, 95, 92);
+  --redPastel: rgb(247, 162, 161);
+  --yellow: rgb(255, 224, 102);
+  --yellowPastel: rgb(255, 239, 173);
+  --green: rgb(112, 193, 179);
+  --greenPastel: rgb(155, 212, 203);
+  --blue: rgb(36, 123, 160);
+  --bluePastel: rgb(55, 163, 210);
+}
+
+@font-face {
+  font-family: Spartan;
+  src: url(https://cdn.glitch.com/559cd780-f0ca-494f-8f9f-58cd29e219c1%2FLeagueSpartan-Bold.otf?v=1616632794873);
+}
+
+@font-face {
+  font-family: HK Grotesk Med;
+  src: url(https://cdn.glitch.com/559cd780-f0ca-494f-8f9f-58cd29e219c1%2FHKGrotesk-Medium.otf?v=1616632813949);
+}
+
+@font-face {
+  font-family: HK Grotesk Light;
+  src: url(https://cdn.glitch.com/559cd780-f0ca-494f-8f9f-58cd29e219c1%2FHKGrotesk-Light.otf?v=1616632821893);
+}
+
+body {
+  background-color: var(--dark);
+  color: white;
+  margin: 2em;
+  padding-left: 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-family: Spartan;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+p {
+  font-family: HK Grotesk Med;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+button {
+  border-radius: 10px;
+  font-family: HK Grotesk Light;
+  font-size: 1rem;
+  margin: 1rem;
+  padding: 10px;
+}
+
+#game-button-area {
+  padding: 0;
+}
+
+#game-button-area button {
+  height: 200px;
+  margin: 1rem 2px;
+  width: 200px;
+}
+
+#button1 {
+  background: var(--redPastel);
+}
+
+#button1:active,
+#button1.lit {
+  background: var(--red);
+}
+
+#button2 {
+  background: var(--yellowPastel);
+}
+
+#button2:active,
+#button2.lit {
+  background: var(--yellow);
+}
+
+#button3 {
+  background: var(--greenPastel);
+}
+
+#button3:active,
+#button3.lit {
+  background: var(--green);
+}
+
+#button4 {
+  background: var(--bluePastel);
+}
+
+#button4:active,
+#button4.lit {
+  background: var(--blue);
+}
+
+.hidden {
+  display: none;
+}
